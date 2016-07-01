@@ -1,0 +1,1504 @@
+/* table-responsive */
+.block {
+  margin: 0 0 10px;
+  padding: 20px 15px 1px;
+}
+.btn_lage_resp {text-align: center;}
+.btn_lage_resp .ven-action-set.large-button,
+.btn_lage_resp .adm-action-set.large-button,
+.btn_lage_resp .pro-action-set.large-button,
+.btn_lage_resp .blg-action-set.large-button,
+.btn_lage_resp .ven-action-all-ready.large-button,
+.btn_lage_resp .ven-action-password.large-button,
+.btn_lage_resp .adm-action-all-ready.large-button,
+.btn_lage_resp .adm-action-password.large-button,
+.btn_lage_resp .pro-action-price.large-button {
+  display: block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.btn_lage_resp .ven-action-set.large-button:first-child,
+.btn_lage_resp .adm-action-set.large-button:first-child,
+.btn_lage_resp .pro-action-set.large-button:first-child,
+.btn_lage_resp .blg-action-set.large-button:first-child,
+.btn_lage_resp .ven-action-all-ready.large-button:first-child,
+.btn_lage_resp .ven-action-password.large-button:first-child,
+.btn_lage_resp .adm-action-all-ready.large-button:first-child,
+.btn_lage_resp .adm-action-password.large-button:first-child,
+.btn_lage_resp .pro-action-price.large-button:first-child {
+  margin-right: 0px;
+}
+.btn_lage_resp .cus-action-set.large-button,
+.btn_lage_resp .ven-action-set.large-button,
+.btn_lage_resp .adm-action-set.large-button,
+.btn_lage_resp .pro-action-set.large-button,
+.btn_lage_resp .blg-action-set.large-button,
+.btn_lage_resp .cus-action-all-ready.large-button,
+.btn_lage_resp .ven-action-all-ready.large-button,
+.btn_lage_resp .adm-action-all-ready.large-button,
+.btn_lage_resp .cus-action-password.large-button,
+.btn_lage_resp .ven-action-password.large-button,
+.btn_lage_resp .adm-action-password.large-button,
+.btn_lage_resp .pro-action-price.large-button {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.form-buttons-building .button-resp {
+    width: 16.666666666666664%;
+}
+/* BEGIN: BOTON ELIMINAR */
+  .button-resp {
+    width: 33.33333333333333%;
+    display: block;
+    margin-bottom: 0px;
+  }
+  .button-abs-resp {
+    top: -2px;
+    right: 0px;
+    padding: 0;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    font-size: 2.3em;
+    color: #D58F8D;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  .button-abs-resp:hover {
+    top: -2px;
+    right: 0px;
+    padding: 0;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    font-size: 2.3em;
+    color: #d9534f;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  .button-abs-resp:active,
+  .button-abs-resp:focus {
+    top: -2px;
+    right: 0px;
+    padding: 0;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    font-size: 2.3em;
+    color: #BAA2A1;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  .button-abs-resp:before {
+    background: #D58F8D;
+    font-weight: bold;
+    padding: 4px 5px;
+    color: #fff;
+    content: 'Eliminar';
+    position: absolute;
+    font-size: 0.5em;
+    right: 0px;
+    top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  .button-abs-resp:hover:before {
+    background: #d9534f;
+    font-weight: bold;
+    padding: 4px 5px;
+    color: #fff;
+    content: 'Eliminar';
+    position: absolute;
+    font-size: 0.5em;
+    right: 0px;
+    top: -29px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  .button-abs-resp:after {
+    content: '';
+    position: absolute;
+    left: 32%;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #D58F8D;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  .button-abs-resp:hover:after {
+    content: '';
+    position: absolute;
+    left: 32%;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #d9534f;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+/* END: BOTON ELIMINAR */
+
+.page{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+table th,
+table td{
+  text-align: left;
+}
+
+table.layout{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.display{
+  margin: 1em 0;
+}
+
+table.display th,
+table.display td{
+  border: 0px solid #FFFFFF;
+  padding: .5em 1em;
+}
+
+table.display th{ background: #ffffff; text-align: center;}
+table.display td{ background: #FFFFFF; }
+
+table.stl-get-cus-table,
+table.stl-get-ven-table,
+table.stl-get-adm-table,
+table.stl-get-pro-table,
+table.stl-get-blg-table,
+table.stl-custom-price-pro {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+/* Responsive media queres */
+@media (max-width: 64em) {
+  .block {
+    margin: 0 auto;
+    padding: 1px;
+  }
+  .wrapper_content_interactive {
+    border-radius: 0;
+    padding: 0px;
+  }
+  .panel-body {
+    padding: 0px;
+  }
+  .button-resp {
+    width: 33.33333333333333%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  /*.button-abs-resp:hover:after {
+    visibility: hidden;
+    opacity: 0;
+  }*/
+  table.display th,
+  table.display td{
+    padding: .5em;
+  }
+  table.stl-get-cus-table,
+  table.stl-get-blg-table {
+      box-shadow: none;
+  }
+  table.stl-get-cus-table thead,
+  table.stl-get-blg-table thead {
+    display: none;
+  }
+  table.stl-get-cus-table tr,
+  table.stl-get-blg-table tr {
+    position: relative;
+    margin-bottom: 1em;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  table.stl-get-cus-table tr,
+  table.stl-get-blg-table tr,
+  table.stl-get-cus-table td,
+  table.stl-get-blg-table td {
+    display: block;
+  }
+  /* BEGIN: GET CUSTOMERS TABLE */
+    table.stl-get-cus-table td:nth-child(1),
+    table.stl-get-cus-table td:nth-child(2),
+    table.stl-get-cus-table td:nth-child(3),
+    table.stl-get-cus-table td:nth-child(4),
+    table.stl-get-cus-table td:nth-child(5),
+    table.stl-get-cus-table td:nth-child(6),
+    table.stl-get-cus-table td:nth-child(7),
+    table.stl-get-cus-table td:nth-child(8)
+    /*table.stl-get-cus-table td:nth-child(9),
+    table.stl-get-cus-table td:nth-child(10)*/ {
+      padding-left: 40%;
+    }
+    /*table.stl-get-cus-table td:nth-child(9),
+    table.stl-get-cus-table td:nth-child(10) {
+      display: inline-block;
+      width: 49%;
+      margin-left: 5px;
+    }*/
+    table.stl-get-cus-table td:nth-child(1):before,
+    table.stl-get-cus-table td:nth-child(2):before,
+    table.stl-get-cus-table td:nth-child(3):before,
+    table.stl-get-cus-table td:nth-child(4):before,
+    table.stl-get-cus-table td:nth-child(5):before,
+    table.stl-get-cus-table td:nth-child(6):before,
+    table.stl-get-cus-table td:nth-child(7):before,
+    table.stl-get-cus-table td:nth-child(8):before
+    /*table.stl-get-cus-table td:nth-child(9):before,
+    table.stl-get-cus-table td:nth-child(10):before*/ {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-cus-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-cus-table td:nth-child(2):before{ content: 'Empresa'; }
+    table.stl-get-cus-table td:nth-child(3):before{ content: 'Razón Social'; }
+    table.stl-get-cus-table td:nth-child(4):before{ content: 'Asesor Asignado'; }
+    table.stl-get-cus-table td:nth-child(5):before{ content: 'Calle'; }
+    table.stl-get-cus-table td:nth-child(6):before{ content: 'Colonia'; }
+    table.stl-get-cus-table td:nth-child(7):before{ content: 'Ciudad'; }
+    table.stl-get-cus-table td:nth-child(8):before{ content: 'Estado'; }
+    /*table.stl-get-cus-table td:nth-child(9):before{ content: 'País'; }
+    table.stl-get-cus-table td:nth-child(10):before{ content: 'Código Postal'; }*/
+    
+  /* END: GET CUSTOMERS TABLE */
+  
+  /* BEGIN: GET BUILDING TABLE */
+    table.stl-get-blg-table td:nth-child(1),
+    table.stl-get-blg-table td:nth-child(2),
+    table.stl-get-blg-table td:nth-child(3),
+    table.stl-get-blg-table td:nth-child(4),
+    table.stl-get-blg-table td:nth-child(5),
+    table.stl-get-blg-table td:nth-child(6),
+    table.stl-get-blg-table td:nth-child(7),
+    table.stl-get-blg-table td:nth-child(8),
+    table.stl-get-blg-table td:nth-child(9),
+    table.stl-get-blg-table td:nth-child(10),
+    table.stl-get-blg-table td:nth-child(11) {
+      padding-left: 40%;
+    }
+    table.stl-get-blg-table td:nth-child(1):before,
+    table.stl-get-blg-table td:nth-child(2):before,
+    table.stl-get-blg-table td:nth-child(3):before,
+    table.stl-get-blg-table td:nth-child(4):before,
+    table.stl-get-blg-table td:nth-child(5):before,
+    table.stl-get-blg-table td:nth-child(6):before,
+    table.stl-get-blg-table td:nth-child(7):before,
+    table.stl-get-blg-table td:nth-child(8):before,
+    table.stl-get-blg-table td:nth-child(9):before,
+    table.stl-get-blg-table td:nth-child(10):before,
+    table.stl-get-blg-table td:nth-child(11):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+
+    table.stl-get-blg-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-blg-table td:nth-child(2):before{ content: 'Cliente'; }
+    table.stl-get-blg-table td:nth-child(3):before{ content: 'Asesor'; }
+    table.stl-get-blg-table td:nth-child(4):before{ content: 'Calle'; }
+    table.stl-get-blg-table td:nth-child(5):before{ content: 'Colonia'; }
+    table.stl-get-blg-table td:nth-child(6):before{ content: 'Cuidad'; }
+    table.stl-get-blg-table td:nth-child(7):before{ content: 'Estado'; }
+    table.stl-get-blg-table td:nth-child(8):before{ content: 'País'; }
+    table.stl-get-blg-table td:nth-child(9):before{ content: 'Código Postal'; }
+    table.stl-get-blg-table td:nth-child(10):before{ content: 'Latitud'; }
+    table.stl-get-blg-table td:nth-child(11):before{ content: 'Longitud'; }
+  /* END: GET BUILDING TABLE */
+  .btn_lage_resp {text-align: center;}
+  .btn_lage_resp .cus-action-set.large-button,
+  .btn_lage_resp .blg-action-set.large-button,
+  .btn_lage_resp .cus-action-all-ready.large-button,
+  .btn_lage_resp .cus-action-password.large-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .btn_lage_resp .cus-action-set.large-button:first-child,
+  .btn_lage_resp .blg-action-set.large-button:first-child,
+  .btn_lage_resp .cus-action-all-ready.large-button:first-child,
+  .btn_lage_resp .cus-action-password.large-button:first-child {
+    margin-right: 25px;
+  }
+  .btn_lage_resp .ven-action-set.large-button,
+  .btn_lage_resp .adm-action-set.large-button,
+  .btn_lage_resp .pro-action-set.large-button,
+  .btn_lage_resp .ven-action-all-ready.large-button,
+  .btn_lage_resp .ven-action-password.large-button,
+  .btn_lage_resp .adm-action-all-ready.large-button,
+  .btn_lage_resp .adm-action-password.large-button,
+  .btn_lage_resp .pro-action-price.large-button {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .btn_lage_resp .blg-action-set.large-button {
+    width: 33.33333333333333%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  /* BEGIN: BOTON ELIMINAR */
+    table.stl-get-cus-table td:nth-child(10) > .button-resp,
+    table.stl-get-blg-table td:nth-child(13) > .button-resp {
+      width: 100%;
+      display: block;
+      margin-bottom: 5px;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #D58F8D;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:hover,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:hover {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #d9534f;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:active,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:active,
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:focus,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:focus {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #BAA2A1;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:before,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:before {
+      background: #D58F8D;
+      font-weight: bold;
+      padding: 4px 5px;
+      color: #fff;
+      content: 'Eliminar';
+      position: absolute;
+      font-size: 0.5em;
+      right: 0px;
+      top: 0px;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:hover:before,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:hover:before {
+      background: #d9534f;
+      font-weight: bold;
+      padding: 4px 5px;
+      color: #fff;
+      content: 'Eliminar';
+      position: absolute;
+      font-size: 0.5em;
+      right: 0px;
+      top: -29px;
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:after,
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:after {
+      content: '';
+      position: absolute;
+      left: 32%;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid #D58F8D;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(10) > .button-abs-resp:hover:after
+    table.stl-get-blg-table td:nth-child(13) > .button-abs-resp:hover:after {
+      content: '';
+      position: absolute;
+      left: 32%;
+      top: 0px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid #d9534f;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(10),
+    table.stl-get-blg-table td:nth-child(13),
+    table.stl-get-cus-table:hover td:nth-child(10),
+    table.stl-get-blg-table:hover td:nth-child(13),
+    table.stl-get-cus-table:active td:nth-child(10),
+    table.stl-get-blg-table:active td:nth-child(13),
+    table.stl-get-cus-table:focus td:nth-child(10),
+    table.stl-get-blg-table:focus td:nth-child(13) {
+      position: absolute;
+      border: none;
+      top: 0px;
+      background: none;
+      right: 0px;
+    }
+  /* END: BOTON ELIMINAR */
+}
+@media (max-width: 49.231em) {
+  .block {
+    margin: 0 auto;
+    padding: 1px;
+  }
+  .wrapper_content_interactive {
+    border-radius: 0;
+    padding: 0px;
+  }
+  .panel-body {
+    padding: 0px;
+  }
+  .button-resp {
+    width: 33.33333333333333%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .button-abs-resp:hover:after {
+    visibility: hidden;
+    opacity: 0;
+  }
+  table.display th,
+  table.display td{
+    padding: .5em;
+  }
+  table.stl-get-cus-table,
+  table.stl-get-ven-table,
+  table.stl-get-adm-table,
+  table.stl-get-pro-table,
+  table.stl-get-blg-table,
+  table.stl-custom-price-pro,
+  table.stl-custom-price-pro-table {
+      box-shadow: none;
+  }
+  table.stl-get-cus-table thead,
+  table.stl-get-ven-table thead,
+  table.stl-get-adm-table thead,
+  table.stl-get-pro-table thead,
+  table.stl-get-blg-table thead,
+  table.stl-custom-price-pro thead,
+  table.stl-custom-price-pro-table thead {
+    display: none;
+  }
+  table.stl-get-cus-table tr,
+  table.stl-get-ven-table tr,
+  table.stl-get-adm-table tr,
+  table.stl-get-pro-table tr,
+  table.stl-get-blg-table tr,
+  table.stl-custom-price-pro tr,
+  table.stl-custom-price-pro-table tr {
+    position: relative;
+    margin-bottom: 1em;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  table.stl-get-cus-table tr,
+  table.stl-get-ven-table tr,
+  table.stl-get-adm-table tr,
+  table.stl-get-pro-table tr,
+  table.stl-get-blg-table tr,
+  table.stl-custom-price-pro tr,
+  table.stl-custom-price-pro-table tr,
+  table.stl-get-cus-table td,
+  table.stl-get-ven-table td,
+  table.stl-get-adm-table td,
+  table.stl-get-pro-table td,
+  table.stl-get-blg-table td,
+  table.stl-custom-price-pro td,
+  table.stl-custom-price-pro-table td {
+    display: block;
+  }
+  .btn_lage_resp {text-align: center;}
+  .btn_lage_resp .cus-action-set.large-button,
+  .btn_lage_resp .ven-action-set.large-button,
+  .btn_lage_resp .adm-action-set.large-button,
+  .btn_lage_resp .pro-action-set.large-button,
+  .btn_lage_resp .blg-action-set.large-button,
+  .btn_lage_resp .cus-action-all-ready.large-button,
+  .btn_lage_resp .ven-action-all-ready.large-button,
+  .btn_lage_resp .adm-action-all-ready.large-button,
+  .btn_lage_resp .cus-action-password.large-button,
+  .btn_lage_resp .ven-action-password.large-button,
+  .btn_lage_resp .adm-action-password.large-button,
+  .btn_lage_resp .pro-action-price.large-button {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .btn_lage_resp .cus-action-set.large-button:first-child,
+  .btn_lage_resp .ven-action-set.large-button:first-child,
+  .btn_lage_resp .adm-action-set.large-button:first-child,
+  .btn_lage_resp .pro-action-set.large-button:first-child,
+  .btn_lage_resp .blg-action-set.large-button:first-child,
+  .btn_lage_resp .cus-action-all-ready.large-button:first-child,
+  .btn_lage_resp .ven-action-all-ready.large-button:first-child,
+  .btn_lage_resp .adm-action-all-ready.large-button:first-child,
+  .btn_lage_resp .cus-action-password.large-button:first-child,
+  .btn_lage_resp .ven-action-password.large-button:first-child,
+  .btn_lage_resp .adm-action-password.large-button:first-child,
+  .btn_lage_resp .pro-action-price.large-button:first-child {
+    margin-right: 15px;
+  }
+  .btn_lage_resp .ven-action-set.large-button,
+  .btn_lage_resp .adm-action-set.large-button,
+  .btn_lage_resp .pro-action-set.large-button,
+  .btn_lage_resp .blg-action-set.large-button,
+  .btn_lage_resp .ven-action-all-ready.large-button,
+  .btn_lage_resp .ven-action-password.large-button,
+  .btn_lage_resp .adm-action-all-ready.large-button,
+  .btn_lage_resp .adm-action-password.large-button,
+  .btn_lage_resp .pro-action-price.large-button {
+    width: 33.33333333333333%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  /* BEGIN: GET CUSTOMERS TABLE */
+    table.stl-get-cus-table td:nth-child(1),
+    table.stl-get-cus-table td:nth-child(2),
+    table.stl-get-cus-table td:nth-child(3),
+    table.stl-get-cus-table td:nth-child(4),
+    table.stl-get-cus-table td:nth-child(5),
+    table.stl-get-cus-table td:nth-child(6),
+    table.stl-get-cus-table td:nth-child(7),
+    table.stl-get-cus-table td:nth-child(8)
+    /*table.stl-get-cus-table td:nth-child(9),
+    table.stl-get-cus-table td:nth-child(10)*/ {
+      padding-left: 40%;
+    }
+    /*table.stl-get-cus-table td:nth-child(9),
+    table.stl-get-cus-table td:nth-child(10) {
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+    }*/
+    table.stl-get-cus-table td:nth-child(1):before,
+    table.stl-get-cus-table td:nth-child(2):before,
+    table.stl-get-cus-table td:nth-child(3):before,
+    table.stl-get-cus-table td:nth-child(4):before,
+    table.stl-get-cus-table td:nth-child(5):before,
+    table.stl-get-cus-table td:nth-child(6):before,
+    table.stl-get-cus-table td:nth-child(7):before,
+    table.stl-get-cus-table td:nth-child(8):before
+    /*table.stl-get-cus-table td:nth-child(9):before,
+    table.stl-get-cus-table td:nth-child(10):before*/ {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-cus-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-cus-table td:nth-child(2):before{ content: 'Empresa'; }
+    table.stl-get-cus-table td:nth-child(3):before{ content: 'Razón Social'; }
+    table.stl-get-cus-table td:nth-child(4):before{ content: 'Asesor Asignado'; }
+    table.stl-get-cus-table td:nth-child(5):before{ content: 'Calle'; }
+    table.stl-get-cus-table td:nth-child(6):before{ content: 'Colonia'; }
+    table.stl-get-cus-table td:nth-child(7):before{ content: 'Ciudad'; }
+    table.stl-get-cus-table td:nth-child(8):before{ content: 'Estado'; }
+    /*table.stl-get-cus-table td:nth-child(9):before{ content: 'País'; }
+    table.stl-get-cus-table td:nth-child(10):before{ content: 'Código Postal'; }*/
+    
+  /* END: GET CUSTOMERS TABLE */
+
+
+  /* BEGIN: GET VENDORS TABLE */
+    table.stl-get-ven-table td:nth-child(1),
+    table.stl-get-ven-table td:nth-child(2) {
+      padding-left: 40%;
+    }
+    table.stl-get-ven-table td:nth-child(1):before,
+    table.stl-get-ven-table td:nth-child(2):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-ven-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-ven-table td:nth-child(2):before{ content: 'Correo Electronico'; }
+  /* END: GET VENDORS TABLE */
+
+  /* BEGIN: GET ADMINISTRATORS TABLE */
+    table.stl-get-adm-table td:nth-child(1),
+    table.stl-get-adm-table td:nth-child(2) {
+      padding-left: 40%;
+    }
+    table.stl-get-adm-table td:nth-child(1):before,
+    table.stl-get-adm-table td:nth-child(2):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-adm-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-adm-table td:nth-child(2):before{ content: 'Correo Electronico'; }
+  /* END: GET ADMINISTRATORS TABLE */
+
+  /* BEGIN: GET PRODUCTS TABLE */
+    table.stl-get-pro-table td:nth-child(1),
+    table.stl-get-pro-table td:nth-child(2),
+    table.stl-get-pro-table td:nth-child(3),
+    table.stl-get-pro-table td:nth-child(4),
+    table.stl-get-pro-table td:nth-child(5),
+    table.stl-get-pro-table td:nth-child(6),
+    table.stl-get-pro-table td:nth-child(7),
+    table.stl-get-pro-table td:nth-child(8),
+    table.stl-get-pro-table td:nth-child(9) {
+      padding-left: 40%;
+    }
+    table.stl-get-pro-table td:nth-child(1):before,
+    table.stl-get-pro-table td:nth-child(2):before,
+    table.stl-get-pro-table td:nth-child(3):before,
+    table.stl-get-pro-table td:nth-child(4):before,
+    table.stl-get-pro-table td:nth-child(5):before,
+    table.stl-get-pro-table td:nth-child(6):before,
+    table.stl-get-pro-table td:nth-child(7):before,
+    table.stl-get-pro-table td:nth-child(8):before,
+    table.stl-get-pro-table td:nth-child(9):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-pro-table td:nth-child(1):before{ content: 'Código'; }
+    table.stl-get-pro-table td:nth-child(2):before{ content: 'Nombre'; }
+    table.stl-get-pro-table td:nth-child(3):before{ content: 'Medida'; }
+    table.stl-get-pro-table td:nth-child(4):before{ content: 'Garantía'; }
+    table.stl-get-pro-table td:nth-child(5):before{ content: 'Familia'; }
+    table.stl-get-pro-table td:nth-child(6):before{ content: 'Margen Mínimo'; }
+    table.stl-get-pro-table td:nth-child(7):before{ content: 'Costo Unitario'; }
+    table.stl-get-pro-table td:nth-child(8):before{ content: 'Precio Cliente'; }
+    table.stl-get-pro-table td:nth-child(9):before{ content: 'Precio General'; }
+  /* END: GET PRODUCTS TABLE */
+  
+  /* BEGIN: GET BUILDING TABLE */
+    table.stl-get-blg-table td:nth-child(1),
+    table.stl-get-blg-table td:nth-child(2),
+    table.stl-get-blg-table td:nth-child(3),
+    table.stl-get-blg-table td:nth-child(4),
+    table.stl-get-blg-table td:nth-child(5),
+    table.stl-get-blg-table td:nth-child(6),
+    table.stl-get-blg-table td:nth-child(7),
+    table.stl-get-blg-table td:nth-child(8),
+    table.stl-get-blg-table td:nth-child(9),
+    table.stl-get-blg-table td:nth-child(10),
+    table.stl-get-blg-table td:nth-child(11) {
+      padding-left: 40%;
+    }
+    table.stl-get-blg-table td:nth-child(1):before,
+    table.stl-get-blg-table td:nth-child(2):before,
+    table.stl-get-blg-table td:nth-child(3):before,
+    table.stl-get-blg-table td:nth-child(4):before,
+    table.stl-get-blg-table td:nth-child(5):before,
+    table.stl-get-blg-table td:nth-child(6):before,
+    table.stl-get-blg-table td:nth-child(7):before,
+    table.stl-get-blg-table td:nth-child(8):before,
+    table.stl-get-blg-table td:nth-child(9):before,
+    table.stl-get-blg-table td:nth-child(10):before,
+    table.stl-get-blg-table td:nth-child(11):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-blg-table td:nth-child(10):before { position: relative; left: -275px; }
+    table.stl-get-blg-table td:nth-child(11):before { position: relative; left: -275px; }
+
+    table.stl-get-blg-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-blg-table td:nth-child(2):before{ content: 'Cliente'; }
+    table.stl-get-blg-table td:nth-child(3):before{ content: 'Asesor'; }
+    table.stl-get-blg-table td:nth-child(4):before{ content: 'Calle'; }
+    table.stl-get-blg-table td:nth-child(5):before{ content: 'Colonia'; }
+    table.stl-get-blg-table td:nth-child(6):before{ content: 'Cuidad'; }
+    table.stl-get-blg-table td:nth-child(7):before{ content: 'Estado'; }
+    table.stl-get-blg-table td:nth-child(8):before{ content: 'País'; }
+    table.stl-get-blg-table td:nth-child(9):before{ content: 'Código Postal'; }
+    table.stl-get-blg-table td:nth-child(10):before{ content: 'Latitud'; }
+    table.stl-get-blg-table td:nth-child(11):before{ content: 'Longitud'; }
+  /* END: GET BUILDING TABLE */
+  
+  /* BEGIN: CUSTOM PRICE PRODUCTS */
+    table.stl-custom-price-pro td:nth-child(1),
+    table.stl-custom-price-pro td:nth-child(2),
+    table.stl-custom-price-pro td:nth-child(3),
+    table.stl-custom-price-pro td:nth-child(4),
+    table.stl-custom-price-pro td:nth-child(5) {
+      padding-left: 40%;
+    }
+    table.stl-custom-price-pro td:nth-child(1):before,
+    table.stl-custom-price-pro td:nth-child(2):before,
+    table.stl-custom-price-pro td:nth-child(3):before,
+    table.stl-custom-price-pro td:nth-child(4):before,
+    table.stl-custom-price-pro td:nth-child(5):before {
+      position: absolute;
+      left: 1.9em;
+      font-weight: bold;
+      background-color: #5cb85c;
+      font-size: 13px;
+      display: inline;
+      padding: .2em .6em .3em;
+      font-weight: bold;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+    }
+    table.stl-custom-price-pro td:nth-child(1):before{ content: 'Margen Mínimo'; }
+    table.stl-custom-price-pro td:nth-child(2):before{ content: 'Costo Unitario'; }
+    table.stl-custom-price-pro td:nth-child(3):before{ content: 'Precio Personalizado Mínimo'; }
+    table.stl-custom-price-pro td:nth-child(4):before{ content: 'Precio Cliente'; }
+    table.stl-custom-price-pro td:nth-child(5):before{ content: 'Precio General'; }
+  /* END: CUSTOM PRICE PRODUCTS */
+  
+  /* BEGIN: CUSTOM PRICE PRODUCTS TABLE*/
+    table.stl-custom-price-pro-table td:nth-child(1),
+    table.stl-custom-price-pro-table td:nth-child(2) {
+      padding-left: 40%;
+    }
+    table.stl-custom-price-pro-table td:nth-child(1) {
+        margin-bottom: 10px;
+        padding-top: 15px;
+    }
+    table.stl-custom-price-pro-table td:nth-child(1):before,
+    table.stl-custom-price-pro-table td:nth-child(2):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-custom-price-pro-table td:nth-child(1):before{ content: 'Cliente'; }
+    table.stl-custom-price-pro-table td:nth-child(2):before{ content: 'Precio Personalizado'; }
+  /* END: CUSTOM PRICE PRODUCTS TABLE*/
+
+  /* BEGIN: BOTON ELIMINAR */
+    table.stl-get-cus-table td:nth-child(13) > .button-resp,
+    table.stl-get-ven-table td:nth-child(4) > .button-resp,
+    table.stl-get-adm-table td:nth-child(4) > .button-resp,
+    table.stl-get-pro-table td:nth-child(11) > .button-resp,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp {
+      width: 100%;
+      display: block;
+      margin-bottom: 5px;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #D58F8D;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:hover,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:hover,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:hover,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:hover,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:hover {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #d9534f;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:active,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:active,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:active,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:active,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:active,
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:focus,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:focus,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:focus,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:focus,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:focus {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #BAA2A1;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:before,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:before,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:before,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:before,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:before {
+      background: #D58F8D;
+      font-weight: bold;
+      padding: 4px 5px;
+      color: #fff;
+      content: 'Eliminar';
+      position: absolute;
+      font-size: 0.5em;
+      right: 0px;
+      top: 0px;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:hover:before,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:hover:before,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:hover:before,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:hover:before,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:hover:before {
+      background: #d9534f;
+      font-weight: bold;
+      padding: 4px 5px;
+      color: #fff;
+      content: 'Eliminar';
+      position: absolute;
+      font-size: 0.5em;
+      right: 0px;
+      top: -29px;
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:after,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:after,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:after,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:after,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:after {
+      content: '';
+      position: absolute;
+      left: 32%;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid #D58F8D;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:hover:after,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:hover:after,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:hover:after,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:hover:after,
+    table.stl-custom-price-pro-table td:nth-child(3) > .button-resp:hover:after {
+      content: '';
+      position: absolute;
+      left: 32%;
+      top: 0px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid #d9534f;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+
+    table.stl-get-cus-table td:nth-child(13),
+    table.stl-get-ven-table td:nth-child(4),
+    table.stl-get-adm-table td:nth-child(4),
+    table.stl-get-pro-table td:nth-child(11),
+    table.stl-custom-price-pro-table td:nth-child(3),
+    table.stl-get-cus-table:hover td:nth-child(13),
+    table.stl-get-ven-table:hover td:nth-child(4),
+    table.stl-get-adm-table:hover td:nth-child(4),
+    table.stl-get-pro-table:hover td:nth-child(11),
+    table.stl-custom-price-pro-table:hover td:nth-child(3),
+    table.stl-get-cus-table:active td:nth-child(13),
+    table.stl-get-ven-table:active td:nth-child(4),
+    table.stl-get-adm-table:active td:nth-child(4),
+    table.stl-get-pro-table:active td:nth-child(11),
+    table.stl-custom-price-pro-table:active td:nth-child(3),
+    table.stl-get-cus-table:focus td:nth-child(13),
+    table.stl-get-ven-table:focus td:nth-child(4),
+    table.stl-get-adm-table:focus td:nth-child(4),
+    table.stl-get-pro-table:focus td:nth-child(11),
+    table.stl-custom-price-pro-table:focus td:nth-child(3) {
+      position: absolute;
+      border: none;
+      top: 0px;
+      background: none;
+      right: 0px;
+    }
+  /* END: BOTON ELIMINAR */
+  .button-resp {
+    width: 33.33333333333333%;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 40em) {
+}
+@media (max-width: 30em) {
+  .block {
+    margin: 0 auto;
+    padding: 1px;
+  }
+  .wrapper_content_interactive {
+    border-radius: 0;
+    padding: 0px;
+  }
+  .panel-body {
+    padding: 0px;
+  }
+  .button-resp {
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .button-abs-resp:hover:after {
+    visibility: hidden;
+    opacity: 0;
+  }
+  table.display th,
+  table.display td{
+    padding: .5em;
+  }
+  table.stl-get-cus-table,
+  table.stl-get-ven-table,
+  table.stl-get-adm-table,
+  table.stl-get-pro-table {
+      box-shadow: none;
+  }
+  table.stl-get-cus-table thead,
+  table.stl-get-ven-table thead,
+  table.stl-get-pro-table thead {
+    display: none;
+  }
+  table.stl-get-cus-table tr,
+  table.stl-get-ven-table tr,
+  table.stl-get-adm-table tr,
+  table.stl-get-pro-table tr {
+    position: relative;
+    margin-bottom: 1em;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  table.stl-get-cus-table tr,
+  table.stl-get-ven-table tr,
+  table.stl-get-adm-table tr,
+  table.stl-get-pro-table tr,
+  table.stl-get-cus-table td,
+  table.stl-get-ven-table td,
+  table.stl-get-adm-table td,
+  table.stl-get-pro-table td {
+    display: block;
+  }
+  .btn_lage_resp {text-align: center;}
+  .btn_lage_resp .cus-action-set.large-button,
+  .btn_lage_resp .ven-action-set.large-button,
+  .btn_lage_resp .adm-action-set.large-button,
+  .btn_lage_resp .pro-action-set.large-button,
+  .btn_lage_resp .blg-action-set.large-button,
+  .btn_lage_resp .cus-action-all-ready.large-button,
+  .btn_lage_resp .ven-action-all-ready.large-button,
+  .btn_lage_resp .adm-action-all-ready.large-button,
+  .btn_lage_resp .cus-action-password.large-button,
+  .btn_lage_resp .ven-action-password.large-button,
+  .btn_lage_resp .adm-action-password.large-button,
+  .btn_lage_resp .pro-action-price.large-button {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .btn_lage_resp .cus-action-set.large-button:first-child,
+  .btn_lage_resp .ven-action-set.large-button:first-child,
+  .btn_lage_resp .adm-action-set.large-button:first-child,
+  .btn_lage_resp .pro-action-set.large-button:first-child,
+  .btn_lage_resp .blg-action-set.large-button:first-child,
+  .btn_lage_resp .cus-action-all-ready.large-button:first-child,
+  .btn_lage_resp .ven-action-all-ready.large-button:first-child,
+  .btn_lage_resp .adm-action-all-ready.large-button:first-child,
+  .btn_lage_resp .cus-action-password.large-button:first-child,
+  .btn_lage_resp .ven-action-password.large-button:first-child,
+  .btn_lage_resp .adm-action-password.large-button:first-child,
+  .btn_lage_resp .pro-action-price.large-button:first-child {
+    margin-right: 0px;
+  }
+  .btn_lage_resp .ven-action-set.large-button,
+  .btn_lage_resp .adm-action-set.large-button,
+  .btn_lage_resp .pro-action-set.large-button,
+  .btn_lage_resp .blg-action-set.large-button,
+  .btn_lage_resp .ven-action-all-ready.large-button,
+  .btn_lage_resp .ven-action-password.large-button,
+  .btn_lage_resp .adm-action-all-ready.large-button,
+  .btn_lage_resp .adm-action-password.large-button,
+  .btn_lage_resp .pro-action-price.large-button {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  /* BEGIN: GET CUSTOMERS TABLE */
+    table.stl-get-cus-table td:nth-child(1),
+    table.stl-get-cus-table td:nth-child(2),
+    table.stl-get-cus-table td:nth-child(3),
+    table.stl-get-cus-table td:nth-child(4),
+    table.stl-get-cus-table td:nth-child(5),
+    table.stl-get-cus-table td:nth-child(6),
+    table.stl-get-cus-table td:nth-child(7),
+    table.stl-get-cus-table td:nth-child(8)
+    /*table.stl-get-cus-table td:nth-child(9),
+    table.stl-get-cus-table td:nth-child(10)*/ {
+      padding-left: 40%;
+    }
+    /*table.stl-get-cus-table td:nth-child(9),
+    table.stl-get-cus-table td:nth-child(10) {
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+    }*/
+    table.stl-get-cus-table td:nth-child(1):before,
+    table.stl-get-cus-table td:nth-child(2):before,
+    table.stl-get-cus-table td:nth-child(3):before,
+    table.stl-get-cus-table td:nth-child(4):before,
+    table.stl-get-cus-table td:nth-child(5):before,
+    table.stl-get-cus-table td:nth-child(6):before,
+    table.stl-get-cus-table td:nth-child(7):before,
+    table.stl-get-cus-table td:nth-child(8):before
+    /*table.stl-get-cus-table td:nth-child(9):before,
+    table.stl-get-cus-table td:nth-child(10):before*/ {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-cus-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-cus-table td:nth-child(2):before{ content: 'Empresa'; }
+    table.stl-get-cus-table td:nth-child(3):before{ content: 'Razón Social'; }
+    table.stl-get-cus-table td:nth-child(4):before{ content: 'Asesor Asignado'; }
+    table.stl-get-cus-table td:nth-child(5):before{ content: 'Calle'; }
+    table.stl-get-cus-table td:nth-child(6):before{ content: 'Colonia'; }
+    table.stl-get-cus-table td:nth-child(7):before{ content: 'Ciudad'; }
+    table.stl-get-cus-table td:nth-child(8):before{ content: 'Estado'; }
+    /*table.stl-get-cus-table td:nth-child(9):before{ content: 'País'; }
+    table.stl-get-cus-table td:nth-child(10):before{ content: 'Código Postal'; }*/
+    
+  /* END: GET CUSTOMERS TABLE */
+
+  /* BEGIN: GET VENDORS TABLE */
+    table.stl-get-ven-table td:nth-child(1),
+    table.stl-get-ven-table td:nth-child(2) {
+      padding-left: 40%;
+    }
+    table.stl-get-ven-table td:nth-child(1):before,
+    table.stl-get-ven-table td:nth-child(2):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-ven-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-ven-table td:nth-child(2):before{ content: 'Correo Electronico'; }
+  /* END: GET VENDORS TABLE */
+
+  /* BEGIN: GET ADMINISTRATORS TABLE */
+    table.stl-get-adm-table td:nth-child(1),
+    table.stl-get-adm-table td:nth-child(2) {
+      padding-left: 40%;
+    }
+    table.stl-get-adm-table td:nth-child(1):before,
+    table.stl-get-adm-table td:nth-child(2):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-adm-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-adm-table td:nth-child(2):before{ content: 'Correo Electronico'; }
+  /* END: GET ADMINISTRATORS TABLE */
+
+  /* BEGIN: GET PRODUCTS TABLE */
+    table.stl-get-pro-table td:nth-child(1),
+    table.stl-get-pro-table td:nth-child(2),
+    table.stl-get-pro-table td:nth-child(3),
+    table.stl-get-pro-table td:nth-child(4),
+    table.stl-get-pro-table td:nth-child(5),
+    table.stl-get-pro-table td:nth-child(6),
+    table.stl-get-pro-table td:nth-child(7),
+    table.stl-get-pro-table td:nth-child(8),
+    table.stl-get-pro-table td:nth-child(9) {
+      padding-left: 40%;
+    }
+    table.stl-get-pro-table td:nth-child(1):before,
+    table.stl-get-pro-table td:nth-child(2):before,
+    table.stl-get-pro-table td:nth-child(3):before,
+    table.stl-get-pro-table td:nth-child(4):before,
+    table.stl-get-pro-table td:nth-child(5):before,
+    table.stl-get-pro-table td:nth-child(6):before,
+    table.stl-get-pro-table td:nth-child(7):before,
+    table.stl-get-pro-table td:nth-child(8):before,
+    table.stl-get-pro-table td:nth-child(9):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-pro-table td:nth-child(1):before{ content: 'Código'; }
+    table.stl-get-pro-table td:nth-child(2):before{ content: 'Nombre'; }
+    table.stl-get-pro-table td:nth-child(3):before{ content: 'Medida'; }
+    table.stl-get-pro-table td:nth-child(4):before{ content: 'Garantía'; }
+    table.stl-get-pro-table td:nth-child(5):before{ content: 'Familia'; }
+    table.stl-get-pro-table td:nth-child(6):before{ content: 'Margen Mínimo'; }
+    table.stl-get-pro-table td:nth-child(7):before{ content: 'Costo Unitario'; }
+    table.stl-get-pro-table td:nth-child(8):before{ content: 'Precio Cliente'; }
+    table.stl-get-pro-table td:nth-child(9):before{ content: 'Precio General'; }
+  /* END: GET PRODUCTS TABLE */
+  
+  /* BEGIN: GET BUILDING TABLE */
+    table.stl-get-blg-table td:nth-child(1),
+    table.stl-get-blg-table td:nth-child(2),
+    table.stl-get-blg-table td:nth-child(3),
+    table.stl-get-blg-table td:nth-child(4),
+    table.stl-get-blg-table td:nth-child(5),
+    table.stl-get-blg-table td:nth-child(6),
+    table.stl-get-blg-table td:nth-child(7),
+    table.stl-get-blg-table td:nth-child(8),
+    table.stl-get-blg-table td:nth-child(9),
+    table.stl-get-blg-table td:nth-child(10),
+    table.stl-get-blg-table td:nth-child(11) {
+      padding-left: 40%;
+    }
+    table.stl-get-blg-table td:nth-child(1):before,
+    table.stl-get-blg-table td:nth-child(2):before,
+    table.stl-get-blg-table td:nth-child(3):before,
+    table.stl-get-blg-table td:nth-child(4):before,
+    table.stl-get-blg-table td:nth-child(5):before,
+    table.stl-get-blg-table td:nth-child(6):before,
+    table.stl-get-blg-table td:nth-child(7):before,
+    table.stl-get-blg-table td:nth-child(8):before,
+    table.stl-get-blg-table td:nth-child(9):before,
+    table.stl-get-blg-table td:nth-child(10):before,
+    table.stl-get-blg-table td:nth-child(11):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-get-blg-table td:nth-child(1):before{ content: 'Nombre'; }
+    table.stl-get-blg-table td:nth-child(2):before{ content: 'Cliente'; }
+    table.stl-get-blg-table td:nth-child(3):before{ content: 'Asesor'; }
+    table.stl-get-blg-table td:nth-child(4):before{ content: 'Calle'; }
+    table.stl-get-blg-table td:nth-child(5):before{ content: 'Colonia'; }
+    table.stl-get-blg-table td:nth-child(6):before{ content: 'Cuidad'; }
+    table.stl-get-blg-table td:nth-child(7):before{ content: 'Estado'; }
+    table.stl-get-blg-table td:nth-child(8):before{ content: 'País'; }
+    table.stl-get-blg-table td:nth-child(9):before{ content: 'Código Postal'; }
+    table.stl-get-blg-table td:nth-child(10):before{ content: 'Latitud'; }
+    table.stl-get-blg-table td:nth-child(11):before{ content: 'Longitud'; }
+  /* END: GET BUILDING TABLE */
+  
+  /* BEGIN: CUSTOM PRICE PRODUCTS */
+    table.stl-custom-price-pro td:nth-child(1),
+    table.stl-custom-price-pro td:nth-child(2),
+    table.stl-custom-price-pro td:nth-child(3),
+    table.stl-custom-price-pro td:nth-child(4),
+    table.stl-custom-price-pro td:nth-child(5) {
+      padding-left: 65%;
+    }
+    table.stl-custom-price-pro td:nth-child(1):before,
+    table.stl-custom-price-pro td:nth-child(2):before,
+    table.stl-custom-price-pro td:nth-child(3):before,
+    table.stl-custom-price-pro td:nth-child(4):before,
+    table.stl-custom-price-pro td:nth-child(5):before {
+      position: absolute;
+      left: 1.9em;
+      font-weight: bold;
+      background-color: #5cb85c;
+      font-size: 13px;
+      display: inline;
+      padding: .2em .6em .3em;
+      font-weight: bold;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+    }
+    table.stl-custom-price-pro td:nth-child(1):before{ content: 'Margen Mínimo'; }
+    table.stl-custom-price-pro td:nth-child(2):before{ content: 'Costo Unitario'; }
+    table.stl-custom-price-pro td:nth-child(3):before{ content: 'Precio Personalizado Mínimo'; }
+    table.stl-custom-price-pro td:nth-child(4):before{ content: 'Precio Cliente'; }
+    table.stl-custom-price-pro td:nth-child(5):before{ content: 'Precio General'; }
+  /* END: CUSTOM PRICE PRODUCTS */
+  
+  /* BEGIN: CUSTOM PRICE PRODUCTS TABLE*/
+    table.stl-custom-price-pro-table td:nth-child(1),
+    table.stl-custom-price-pro-table td:nth-child(2) {
+      padding-left: 40%;
+    }
+    table.stl-custom-price-pro-table td:nth-child(1) {
+        margin-bottom: 10px;
+        padding-top: 15px;
+    }
+    table.stl-custom-price-pro-table td:nth-child(1):before,
+    table.stl-custom-price-pro-table td:nth-child(2):before {
+      position: absolute;
+      left: 1.5em;
+      font-weight: bold;
+    }
+    table.stl-custom-price-pro-table td:nth-child(1):before{ content: 'Cliente'; }
+    table.stl-custom-price-pro-table td:nth-child(2):before{ content: 'Precio Personalizado'; }
+  /* END: CUSTOM PRICE PRODUCTS TABLE*/
+  
+  /* BEGIN: BOTON ELIMINAR */
+    table.stl-get-cus-table td:nth-child(13) > .button-resp,
+    table.stl-get-ven-table td:nth-child(4) > .button-resp,
+    table.stl-get-adm-table td:nth-child(4) > .button-resp,
+    table.stl-get-pro-table td:nth-child(11) > .button-resp {
+      width: 100%;
+      display: block;
+      margin-bottom: 5px;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #D58F8D;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:hover,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:hover,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:hover,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:hover {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #d9534f;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:active,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:active,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:active,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:active,
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:focus,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:focus,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:focus,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:focus {
+      top: -2px;
+      right: 0px;
+      padding: 0;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 2.3em;
+      color: #BAA2A1;
+      background: rgba(255, 255, 255, 0);
+      border: none;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:before,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:before,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:before,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:before {
+      background: #D58F8D;
+      font-weight: bold;
+      padding: 4px 5px;
+      color: #fff;
+      content: 'Eliminar';
+      position: absolute;
+      font-size: 0.5em;
+      right: 0px;
+      top: 0px;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:hover:before,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:hover:before,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:hover:before,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:hover:before {
+      background: #d9534f;
+      font-weight: bold;
+      padding: 4px 5px;
+      color: #fff;
+      content: 'Eliminar';
+      position: absolute;
+      font-size: 0.5em;
+      right: 0px;
+      top: -29px;
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:after,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:after,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:after,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:after {
+      content: '';
+      position: absolute;
+      left: 32%;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid #D58F8D;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13) > .button-abs-resp:hover:after,
+    table.stl-get-ven-table td:nth-child(4) > .button-abs-resp:hover:after,
+    table.stl-get-adm-table td:nth-child(4) > .button-abs-resp:hover:after,
+    table.stl-get-pro-table td:nth-child(11) > .button-abs-resp:hover:after {
+      content: '';
+      position: absolute;
+      left: 32%;
+      top: 0px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid #d9534f;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all .1s ease-in-out;
+         -moz-transition: all .1s ease-in-out;
+          -ms-transition: all .1s ease-in-out;
+           -o-transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;
+    }
+    table.stl-get-cus-table td:nth-child(13),
+    table.stl-get-ven-table td:nth-child(4),
+    table.stl-get-adm-table td:nth-child(4),
+    table.stl-get-pro-table td:nth-child(11),
+    table.stl-get-cus-table:hover td:nth-child(13),
+    table.stl-get-ven-table:hover td:nth-child(4),
+    table.stl-get-adm-table:hover td:nth-child(4),
+    table.stl-get-pro-table:hover td:nth-child(11),
+    table.stl-get-cus-table:active td:nth-child(13),
+    table.stl-get-ven-table:active td:nth-child(4),
+    table.stl-get-adm-table:active td:nth-child(4),
+    table.stl-get-pro-table:active td:nth-child(11),
+    table.stl-get-cus-table:focus td:nth-child(13),
+    table.stl-get-ven-table:focus td:nth-child(4),
+    table.stl-get-adm-table:focus td:nth-child(4),
+    table.stl-get-pro-table:focus td:nth-child(11) {
+      position: absolute;
+      border: none;
+      top: 0px;
+      background: none;
+      right: 0px;
+    }
+  /* END: BOTON ELIMINAR */
+  .button-resp {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 20em) {
+}

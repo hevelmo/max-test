@@ -52,8 +52,6 @@ var testApiMethod = {
         dataTestRenamed = dataTestRenamed[0];
 
         console.log(dataTestRenamed);
-
-
         /*
         dataTestApi['web_max'] = 'medigraf.com.mx';
         dataTestApi['news'] = '1';

@@ -83,7 +83,7 @@ var testApiMethod = {
         dataTestRenamed['exit_web'] = 'http://google.com';
         dataTestRenamed['campaign_max'] = 'Capaña de prueba';
         console.log(dataTestRenamed);
-        //return MAXT.postalService('http://max-app.net/api/v1/remote/action', dataTestRenamed);
+        return MAXT.postalService('http://max-app.net/api/v1/remote/action', dataTestRenamed);
     },
     fillingControl: function () {
         var validFieldName, dataTestApi, isFull, isNoEmpty;
